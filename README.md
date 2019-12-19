@@ -8,7 +8,7 @@ The scripts lock the versions of the software to prevent unwanted updates. To en
 Required OS on all nodes: Ubuntu
 
 ## Usage
-Get the link to the raw script, from an ssh session on your nodes, perform a curl and pipe to bash
+Get the link to the raw script in this repo, and from an ssh session on your nodes, perform a curl and pipe to bash
 
 i.e. 
 ```
