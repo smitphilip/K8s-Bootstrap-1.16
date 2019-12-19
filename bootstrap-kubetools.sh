@@ -6,10 +6,12 @@ EOF
 
 sudo apt-get update
 
-sudo apt-get install -y kubelet=1.12.7-00 kubeadm=1.12.7-00 kubectl=1.12.7-00
+sudo apt-get install -y kubelet=1.16.0-00 kubeadm=1.16.0-00 kubectl=1.16.0-00
 
+# Lock software to the required version
 sudo apt-mark hold kubelet kubeadm kubectl
 
+# Get kubeadm version
 kubeadm version -o short
 
 # Networking
