@@ -5,6 +5,7 @@ The scripts lock the versions of the software to prevent unwanted updates. To en
 
 # Usage
 Get the link to the raw script, from an ssh session on your nodes, perform a curl and pipe to bash
+
 i.e. $ curl https://raw.githubusercontent.com/smitphilip/K8s-Bootstrap-1.16/master/bootstrap-docker.sh | bash
 
 All three scripts are run on all nodes (master and workers)
