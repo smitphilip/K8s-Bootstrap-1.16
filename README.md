@@ -32,4 +32,6 @@ kubectl get nodes
 
 kubectl get pods -n kube-system
 ```
-Execute the cluster join command on all worker nodes
+Execute the cluster join command on all worker nodes. It looks something like this:
+
+`sudo kubeadm join $some_ip:6443 --token $some_token --discovery-token-ca-cert-hash $some_hash`
